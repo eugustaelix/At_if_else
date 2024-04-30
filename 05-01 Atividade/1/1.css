@@ -1,0 +1,104 @@
+/* Fonte: */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* Estilo da página: */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: white;
+}
+
+form {
+  max-width: 550px;
+  width: 100%;
+  background: white;
+  padding: 45px;
+  margin-top: -15px;
+  text-align: center;
+  position: fixed;
+}
+
+/* Desativa as setas de incremento e decremento em todos os Navegadores: */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+  transition: 0.5s;
+}
+
+input:focus {
+  border-color: rgba(255, 0, 0, 1);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+}
+
+button {
+  transition: 1s;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 14px 25px;
+  border: none;
+  font-weight: 500;
+  background: rgba(255, 0, 0, 1);
+  color: white;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 2s;
+  background-color: rgba(255, 0, 0, 1);
+}
+
+label {
+  color: #000000;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#pagina-inicio {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+a {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}

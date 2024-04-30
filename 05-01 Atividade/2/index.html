@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="imagex/png" href="icon.ico" />
+  <link rel="stylesheet" type="text/css" href="2.css" media="screen" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercício 2 | PWII</title>
+</head>
+
+<body id="pagina-inicio">
+  <script>
+    window.onload = function () {
+      document.getElementById("pagina-inicio").style.opacity = 1;
+    };
+  </script>
+  <form action="script.php" method="post">
+    <a href="..\index.html"></a>
+    <label for="peso"><i class="fas fa-balance-scale"></i> Peso:</label>
+    <input type="number" name="peso" id="peso" required />
+    <label for="altura"><i class="fas fa-solid fa-ruler"></i> Altura:</label>
+    <input type="text" name="altura" id="altura" required />
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>

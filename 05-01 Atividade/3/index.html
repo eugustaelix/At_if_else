@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="imagex/png" href="icon.ico" />
+    <link rel="stylesheet" type="text/css" href="3.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3 | PWII</title>
+  </head>
+  <body id="pagina-inicio">
+    <script>
+      window.onload = function () {
+        document.getElementById("pagina-inicio").style.opacity = 1;
+      };
+    </script>
+    <form action="script.php" method="post">
+      <a href="..\index.html"></a>
+      <label for="nome">Nome</label>
+      <input type="text" name="nome" id="nome" required />
+      <br />
+      <br />
+      <label for="nota1">1ª Nota</label>
+      <input type="number" name="nota1" id="nota1" required />
+      <br />
+      <br />
+      <label for="nota2">2ª Nota</label>
+      <input type="number" name="nota2" id="nota2" required />
+      <br />
+      <br />
+      <label for="nota3">3ª Nota</label>
+      <input type="number" name="nota3" id="nota3" required />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
